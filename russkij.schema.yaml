@@ -1,0 +1,49 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: russkij
+  name: РУССКИЙ 音导俄拼
+  version: "0.1"
+  author:
+    - Gu Pengqi <gu.pq@ro.ru>
+  description: |
+    输入希腊俄文字母及其他数学符号。
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 俄文 Русско, Англо 英文 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - speller
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+  filters:
+    - uniquifier
+
+speller:
+  alphabet: 'ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba`-<>'
+  delimiter: " "
+  auto_select: false
+  algebra:
+    - derive/([A-Z])/\L$1/
+    - derive/([a-z])/\L$1/
+    - derive/^c$/ts/
+    - derive/^C$/Ts/
+    - derive/^ph$/f/
+    - derive/^Ph$/F/
+    
+translator:
+  dictionary: russkij
+  enable_user_dict: true
+  spelling_hints: 1000
