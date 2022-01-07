@@ -1,5 +1,5 @@
 # Rime-Russkij
-![Image](https://github.com/K-PK66/Rime-Russkij/Images/Display.gif)
+![Image](https://github.com/K-PK66/Rime-Russkij/blob/main/Images/Display.gif)
 
 基於Rime中州韻輸入法引擎的俄文自動聯想輸入方案。
 
