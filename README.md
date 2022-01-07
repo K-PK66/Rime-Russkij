@@ -14,7 +14,7 @@
 - schema: russkij
 ```
 
-若您沒有建立過default.custom.yaml文件，請新建之，並直接複製下方代碼後粘貼其中：
+若您沒有建立過default.custom.yaml文件，請新建之，並直接複製下方代碼後粘貼其中，隨後重新部署即可使用：
 
 ```
 # default.custom.yaml
