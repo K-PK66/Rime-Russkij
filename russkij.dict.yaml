@@ -43,6 +43,7 @@ columns:
 б	b
 н	n
 м	m
+ё	yo
 
 #大写俄文
 Я	Ya
@@ -75,6 +76,7 @@ columns:
 Б	B
 Н	N
 М	M
+Ё	Yo
 
 #符号
 «	<
@@ -626,6 +628,28 @@ columns:
 аксонометрический	aksonmetricheskij
 аксонометрия	aksonometriya
 аксопласт	aksoplast
+акт	akt
+актёр	aktyor
+актёрка	aktyorka
+активатор	aktivator
+активация	aktivatsiya
+активировать	aktivirovat`
+активность	aktivnost`
+активный	aktivnyj
+активые	aktivye
+помехи	pomekhi
+актинидия	aktinidiya
+актиний	aktinij
+актиничность	aktinichnost`
+актиничный	aktinichnyj
+актинобиолог	aktinobiolog
+актинобиологический	aktinobiologicheskij
+актинобиология	aktinobiologiya
+актиногеника	aktinogenika
+актинограф	aktinograf
+актинодромный	aktinodromnyj
+актиноид	aktinoid
+актиноиды	aktinoidy
 бы	by
 Раим	Rime
 Раим	Raim
