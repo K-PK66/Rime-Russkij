@@ -10,7 +10,11 @@
 
 下載本輸入方案，請點擊[這裏](https://github.com/K-PK66/Rime-Russkij/archive/refs/heads/main.zip)。
 
-該輸入法有自動聯想功能，只需要將這裏所有yaml文件拽入設定文件夾部署即可使用。
+該輸入法有自動聯想功能，只需要將這裏所有yaml文件拽入設定文件夾，之後在default.custom.yaml中“schema_list:”一欄添加如下代碼後重新部署即可使用：
+
+```
+- schema: russkij
+```
 
 ## 版本記錄
 ### v 2022.1.1
