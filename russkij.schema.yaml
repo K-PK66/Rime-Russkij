@@ -8,7 +8,7 @@ schema:
   author:
     - Gu Pengqi <gu.pq@ro.ru>
   description: |
-    输入希腊俄文字母及其他数学符号。
+    输入俄文字母及其他数学符号。
 
 switches:
   - name: ascii_mode
@@ -38,12 +38,11 @@ speller:
   algebra:
     - derive/([A-Z])/\L$1/
     - derive/([a-z])/\L$1/
-    - derive/^c$/ts/
-    - derive/^C$/Ts/
-    - derive/^ph$/f/
-    - derive/^Ph$/F/
-    
+    - derive/f/ph
+    - derive/F/Ph
+    - derive/c/ts
+    - derive/C/Ts
 translator:
   dictionary: russkij
-  enable_user_dict: true
+  enable_user_dict: false
   spelling_hints: 1000
