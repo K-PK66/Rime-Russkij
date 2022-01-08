@@ -5,78 +5,75 @@
 name: russkij
 version: "0.1"
 sort: by_weight
-columns:
-  - text
-  - code
 ...
 
 #小写俄文
-щ	sch
-ь	`
-ъ	``
-я	ya
-ш	sh
-е	e
-р	r
-т	t
-ы	y
-у	u
-и	i
-о	o
-п	p
-ю	yu
-ж	zh
-э	eh
-а	a
-с	s
-д	d
-ф	f
-г	g
-ч	ch
-й	j
-к	k
-л	l
-з	z
-х	kh
-ц	ts
-в	v
-б	b
-н	n
-м	m
-ё	yo
+щ	sch	100
+ь	`	100
+ъ	``	100
+я	ya	100
+ш	sh	100
+е	e	100
+р	r	100
+т	t	100
+ы	y	100
+у	u	100
+и	i	100
+о	o	100
+п	p	100
+ю	yu	100
+ж	zh	100
+э	eh	100
+а	a	100
+с	s	100
+д	d	100
+ф	f	100
+г	g	100
+ч	ch	100
+й	j	100
+к	k	100
+л	l	100
+з	z	100
+х	kh	100
+ц	ts	100
+в	v	100
+б	b	100
+н	n	100
+м	m	100
+ё	yo	100
 
 #大写俄文
-Я	Ya
-Ш	Sh
-Е	E
-Р	R
-Т	T
-Ы	Y
-У	U
-И	I
-О	O
-П	P
-Ю	Yu
-Ж	Zh
-Э	Eh
-Щ	Sch
-А	A
-С	S
-Д	D
-Ф	F
-Г	G
-Ч	Ch
-Й	J
-К	K
-Л	L
-З	Z
-Х	Kh
-Ц	Ts
-В	V
-Б	B
-Н	N
-М	M
-Ё	Yo
+Я	Ya	10
+Ш	Sh	10
+Е	E	10
+Р	R	10
+Т	T	10
+Ы	Y	10
+У	U	10
+И	I	10
+О	O	10
+П	P	10
+Ю	Yu	10
+Ж	Zh	10
+Э	Eh	10
+Щ	Sch	10
+А	A	10
+С	S	10
+Д	D	10
+Ф	F	10
+Г	G	10
+Ч	Ch	10
+Й	J	10
+К	K	10
+Л	L	10
+З	Z	10
+Х	Kh	10
+Ц	Ts	10
+В	V	10
+Б	B	10
+Н	N	10
+М	M	10
+Ё	Yo	10
 
 #符号
 «	<
@@ -921,8 +918,147 @@ columns:
 альфа-активный	al`fa-aktivnyj
 альфа	al`fa
 альфаметр	al`fametr
+альфатизация	al`fatizatsiya
+альфатопический	al`fatopicheskij
+альфатрон	al`fatron
+альянс	al`yans
+алюминий	alyuminij
+алюминирование	alyuminirovanie
+алюминотермитный	alyuminotermitnyj
+алюминотермия	alyuminotermiya
+алюмосиликат	alyumosilikat
+алюмотермия	alyumotermiya
+алюнит	alyunit
+аляскит	alyaskit
+амага	amaga
+амальгама	amal`gama
+амальгамация	amal`gamatsiya
+амальгамирование	amal`gamirovanie
+амальгамировать	amal`gamirovat`
+амандин	amandin
+аманитин	amanitin
+амарантовый	amarantovyj
+амбар	ambar
+амбилатория	ambilatoriya
+амбиофонический	ambiofonicheskij
+амбиофония	ambiofoniya
+амбиплазма	ambiplazma
+амбиполярность	ambipolyarnost`
+амбиполярный	ambipolyarnyj
+амбисексуальный	ambiseksual`nyj
+амблигонит	ambligonit
+амблиоп	ambliop
+амблиопический	ambliopicheskij
+амблиопия	ambliopiya
+амблиоскоп	amblioskop
+амбы	amby
+амебосфера	amebosfera
+амейоз	amejoz
+аменабельность	amenabel`nost`
+аменсализм	amensalizm
+аментула	amentula
+Америка	Аmerika
+Америка	amerika
+американец	amerikanets
+американизация	amerikanizatsiya
+американизированный	amerikanizirovannyj
+американизировать	amerikanizirovat`
+американский	amerikanskij
+америций	ameritsij
+аметабола	ametabola
+аметаболи	ametaboli
+аметаболизм	ametabolizm
+аметаболический	ametabolicheskij
+аметист	ametist
+аметистовый	ametistovyj
+аметрометр	ametrometr
+аметрометрия	ametrometriya
+аметропия	ametropiya
+амёба	amyoba
+амёбовидный	amyobovidnyj
+амёбоцит	amyobotsit
+амиант	amiant
+амигдалин	amigdalin
+амигдалис	amigdalis
+амид	amid
+амидаза	amidaza
+амидирование	amidirovanie
+амидный	amidnyj
+амикрон	amikron
+амиксия	amiksiya
+амилаза	amilaza
+амилен	amilen
+амилограмма	amilogramma
+амилограф	amilograf
+амилодекстрин	amilodekstrin
+амилоза	amiloza
+амилоид	amiloid
+амилоидный	amiloidnyj
+амилолиз	amiloliz
+амилолитический	amiloliticheskij
+амилопектин	amilopektin
+амилопласт	amiloplast
+амилоцеллюлоза	amilotsellyuloza
+амин	amin
+аминирование	aminirovanie
+амино-	amino-
+аминограмма	aminogramma
+аминокислота	aminokoslota
+аминолиз	aminoliz
+аминолог	aminolog
+аминологический	aminologicheskij
+аминология	aminologiya
+аминометилирование	aminometilirovanie
+аминопептидаза	aminopeptidaza
+аминопласт	aminoplast
+аминосоединение	aminosoedinenie
+аминь	amin`
+амириотический	amirioticheskij
+амитоз	amitoz
+амитотический	amitoticheskij
+аммони-	ammoni-
+аммониак	ammoniak
+аммониаметр	ammoniametr
+аммониатор	ammoniator
+аммониация	ammoniatsiya
+аммонизатор	ammonizator
+аммонизация	ammonizatsiya
+аммоний	ammonij
+аммонийный	ammonijnyj
+аммониометр	ammoniometr
+аммониометрия	ammoniometriya
+аммоно-	ammono-
+аммонолиз	ammonoliz
+аммофильный	ammofil`nyj
+амниография	amniografiya
+амнион	amnion
+амниоскоп	amnioskop
+амниотический	amnioticheskij
+амнистия	amnistiya
+амозит	amozit
+амортизация	amortizatsiya
+аморфизм	amorfizm
+аморфность	amorfnost`
+аморфный	amorfnyj
+ампангабеит	ampangabeit
+ампелография	ampelografiya
+ампер-виток	amper-vitok
+ампер-секунда	amper-sekunda
+ампер-час	amper-chas
+ампер	amper
+амперметр	ampermetr
+амперометрический	amperometricheskij
+амперометрия	amperometriya
+амперостатический	amperostaticheskij
+амплиграф	ampligraf
+амплидин	amplidin
+амплископ	ampliskop
+амплистат	amplistat
+амплитрон	amplitron
+амплитуда	amplituda
+амплификация	amplifikatsiya
+ампула	ampula
 бы	by
 Раим	Rime
 Раим	Raim
 Русский	Russkij
-
