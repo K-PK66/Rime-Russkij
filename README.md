@@ -6,7 +6,7 @@ Russkij (Русский) 是基於Rime中州韻輸入法引擎的俄文輸入方
 ## 下載、安裝、使用
 下載、安裝Rime輸入法引擎，請點擊[這裏](rime.im)。
 
-下載本輸入方案，請點擊[這裏](https://github.com/K-PK66/Rime-Russkij/archive/refs/heads/main.zip)。
+下載本輸入方案，請點擊[這裏](https://github.com/K-PK66/Rime-Russkij/releases)對應的最新版本下載（不要點擊本界面code模块直接下載，否則會有其他無關內容）。
 
 只需要將這裏所有yaml文件拽入設定文件夾，之後在default.custom.yaml中“schema_list:”一欄添加如下代碼後重新部署即可使用：
 
@@ -162,3 +162,5 @@ style:
 ## 版本記錄
 ### v 2022.1.1
 創建該輸入法，並滿足字母表順序ай-及其以前的詞庫聯想輸出。（2022年1月7日）
+### v 2022.1.1000
+輸入法自動聯想詞庫條目滿千紀念版本。（2022年1月8日）
