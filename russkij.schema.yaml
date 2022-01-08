@@ -44,5 +44,5 @@ speller:
     - derive/C/Ts
 translator:
   dictionary: russkij
-  enable_user_dict: false
+  enable_user_dict: true
   spelling_hints: 1000
