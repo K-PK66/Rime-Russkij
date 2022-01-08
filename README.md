@@ -1,5 +1,5 @@
 # Russkij 音導俄拼
-![Image](https://github.com/K-PK66/Rime-Russkij/blob/main/Images/Intro.gif)
+![Image](https://github.com/K-PK66/Images/blob/main/Screen%20Recording%202022-01-07%20at%2022.11.58.gif)
 
 Russkij (Русский) 是基於Rime中州韻輸入法引擎的俄文輸入方案，**支持自動聯想功能**。本輸入法旨在幫助更多俄語初學者或對俄語輸入鍵位不熟悉的用户，因而沒有採用俄文鍵盤格式或macOS自帶音標型俄語輸入方案，而是採用了基於GOST 1971和英國標準兩者進行結合並改良的新方案（關於各字母的輸入鍵法，請看dict文件。dict文件還在開發狀態，詞庫尚不完全）。
 
