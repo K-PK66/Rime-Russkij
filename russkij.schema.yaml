@@ -42,6 +42,8 @@ speller:
     - derive/F/Ph
     - derive/c/ts
     - derive/C/Ts
+    - derive/x/ks
+    - derive/X/Ks
 translator:
   dictionary: russkij
   enable_user_dict: true
